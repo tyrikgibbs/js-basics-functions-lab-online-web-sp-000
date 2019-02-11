@@ -32,7 +32,7 @@ function calculatesFarePrice(someValue, someValue2) {
     result;
   }
   else if (Math.abs(someValue - someValue2) * 264 <= 400) {
-    result;
+    result = 0;
   }
   return result
 }
