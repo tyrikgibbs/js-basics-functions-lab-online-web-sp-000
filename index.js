@@ -27,8 +27,9 @@ function calculatesFarePrice(someValue, someValue2) {
   }
   else if (Math.abs(someValue - someValue2) * 264 >= 2000) {
     result = 25;
+    x = Math.abs(someValue - someValue2) * 264
   }
-  else if ((Math.abs(someValue - someValue2) * 264 >= 400) && (Math.abs(someValue - someValue2) <=2000)) {
+  else if ((x 264 >= 400) && (x <=2000)) {
     result =;
   }
   else if (Math.abs(someValue - someValue2) * 264 <= 400) {
