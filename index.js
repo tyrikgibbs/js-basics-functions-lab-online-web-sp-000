@@ -22,7 +22,7 @@ function distanceTravelledInFeet(someValue, someValue2){
 
 function calculatesFarePrice(someValue, someValue2) {
   let result
-  let x = Math.abs(someValue - someValue2) * 264
+  let x = (Math.abs(someValue - someValue2) * 264)
   if (Math.abs(someValue - someValue2) * 264 > 2500) {
     result = "cannot travel that far";
   }
